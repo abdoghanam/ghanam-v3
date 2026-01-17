@@ -1,0 +1,20 @@
+Ghannam Real Estate — Brand Kit
+
+LOGOS (recommended):
+- logos/ghanam-logo-transparent.png (best for posts with any background)
+- logos/ghanam-logo-h1024.png (high resolution)
+
+FONTS:
+- Cairo (Arabic UI/body)
+- Changa (Arabic headlines)
+
+Canva note:
+- Cairo and Changa usually exist as built-in fonts in Canva. Search the font dropdown for: Cairo / Changa.
+- Uploading custom fonts in Canva requires Canva Pro. If you're on Free, use built-in Cairo/Changa (or Tajawal as fallback).
+
+How to add logo to your design:
+1) Open the design link in Canva.
+2) Left panel > Uploads > Upload files > select the logo file.
+3) Drag the logo onto the canvas.
+4) Place it top-right (Arabic) or top-left, keep clear space around it.
+5) Export as PNG.

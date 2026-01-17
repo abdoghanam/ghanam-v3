@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#F5F5F5"/>
+  <rect x="80" y="80" width="1040" height="640" rx="28" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="4"/>
+  <path d="M260 520l170-180 140 140 210-240 160 200v90H260v-10z" fill="#E5E7EB"/>
+  <circle cx="420" cy="290" r="44" fill="#E5E7EB"/>
+  <text x="600" y="410" font-family="Arial" font-size="44" text-anchor="middle" fill="#9CA3AF">
+    صورة العقار
+  </text>
+  <text x="600" y="470" font-family="Arial" font-size="26" text-anchor="middle" fill="#9CA3AF">
+    سيتم إضافة الصور لاحقًا
+  </text>
+</svg>
