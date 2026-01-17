@@ -66,30 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
 
         {/* Netlify Forms (Hidden) so Netlify registers forms at build time */}
-        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
-          <input name="form-name" value="contact" />
-          <input name="bot-field" />
-          <input name="name" />
-          <input name="phone" />
-          <textarea name="message" />
-        </form>
-
-        <form
-          name="property-inquiry"
-          method="POST"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-          hidden
-        >
-          <input name="form-name" value="property-inquiry" />
-          <input name="bot-field" />
-          <input name="property" />
-          <input name="name" />
-          <input name="phone" />
-          <textarea name="message" />
-        </form>
-
-        <Navbar />
+<Navbar />
         <StickyActions />
         {children}
         <Footer />

@@ -114,7 +114,7 @@ export default function PropertyDetailsPage({ params }: { params: { slug: string
                   name="property-inquiry"
                   method="POST"
                   data-netlify="true"
-                 data-netlify-honeypot="bot-field" action="/thanks">
+                 data-netlify-honeypot="bot-field" action="/__forms.html">
                   <input type="hidden" name="form-name" value="property-inquiry" />
                   <input type="hidden" name="bot-field" />
                   <input type="hidden" name="property" value={p.title} />
