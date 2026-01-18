@@ -12,8 +12,15 @@ const typeLabel: Record<Property["type"], string> = {
   shops: "محلات",
 };
 
-export function PropertyCard({ p }: { p: Property }) {
-  const img = p.images?.[0] || "/placeholders/property.svg";
+type Props = { p: Property } | { property: Property };
+
+export function PropertyCard(props: Props) {
+  const p = "property" in props ? props.property : props.p;
+
+  // حماية إضافية ضد أي استدعاء غلط
+  if (!p) return null;
+
+  const img = p.images?.[0] ?? "/placeholders/property.svg";
 
   return (
     <Card className="overflow-hidden">
